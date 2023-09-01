@@ -1,0 +1,120 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #3498db;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  margin-top: -2rem;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+  padding: 0;
+}
+
+.navbar li {
+  margin: 0;
+}
+
+.navbar a {
+  display: block;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #555;
+}
+
+.divlogo {
+  display: flex;
+  justify-content: center;
+}
+
+.logo1 {
+  max-width: 100%;
+  height: auto;
+}
+
+
+nav {
+  background-color: #3498db;
+  padding: 0.5rem;
+}
+
+
+section {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: #3498db;
+  margin-top: -5.2rem;
+}
+
+
+.esquerdo {
+  flex: 1;
+  padding: 1rem;
+  text-align: center;
+  background-color: #3498db;
+}
+
+.imgidoso {
+  margin-top: 2rem;
+  border-radius: 100px;
+}
+
+.img5 {
+
+  max-width: 100%;
+  height: auto;
+  padding-right: 60%;
+
+}
+
+.direito {
+  flex: 1;
+  padding: 1rem;
+  background-color: #3498db;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.btn {
+  transition: 1s ease-in;
+  height: 50px;
+  width: 200px;
+  color: green;
+  font-family: monospace;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+.btn:hover {
+  color: green;
+  box-shadow: inset -10.5em 0 0 orangered,
+    inset 10.5em 0 0 orangered;
+}
+
+.positionbtn {
+  text-align: center;
+}
