@@ -73,14 +73,6 @@ section {
   border-radius: 100px;
 }
 
-.img5 {
-
-  max-width: 100%;
-  height: auto;
-  padding-right: 60%;
-
-}
-
 .direito {
   flex: 1;
   padding: 1rem;
@@ -103,7 +95,7 @@ h2 {
   transition: 1s ease-in;
   height: 50px;
   width: 200px;
-  color: green;
+  background-color: green;
   font-family: monospace;
   font-size: 20px;
   border-radius: 20px;
@@ -117,4 +109,12 @@ h2 {
 
 .positionbtn {
   text-align: center;
+}
+
+@media screen and (max-width: 40rem) {
+  .imgidoso{
+    display:flex;
+    width: 290px;
+  }
+  
 }
